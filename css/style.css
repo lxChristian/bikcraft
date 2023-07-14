@@ -6,4 +6,6 @@
 @import "./home/introducao.css";
 
 /* Utilidades */
+@import "./utilidades/cores.css";
 @import "./utilidades/componentes.css";
+@import "./utilidades/tipografia.css";
