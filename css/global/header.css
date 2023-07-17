@@ -22,11 +22,8 @@
 }
 
 .header-menu a {
-  font-family: "Poppings";
-  font-weight: 400;
   padding: 16px 0px;
   display: inline-block;
-  font-size: 1.125rem;
   position: relative;
 }
 
