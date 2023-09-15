@@ -7,8 +7,11 @@
     <title>Bicicletas | Bikcraft</title>
     <meta name="description" content="Bicicletas.">
 
-    <link rel="preload" href="./css/style.css" as="style">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+
+
+    <link rel="preload" href="./css/style.min.css" as="style">
+    <link rel="stylesheet" href="./css/style.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -43,11 +46,11 @@
         </div>
 
         <div class="bicicletas container">
-            <div class="bicicletas-imagem">
+            <div class="bicicletas-imagem fadeInLeft" data-anime="200">
                 <img src="./img/bicicletas/nimbus.jpg" alt="Bicicleta Preta">
                 <span class="font-2-m cor-0">R$ 4999</span>
             </div>
-            <div class="bicicletas-conteudo">
+            <div class="bicicletas-conteudo fadeInRight" data-anime="250">
                 <h2 class="font-1-xl">Nimbus Stark</h2>
                 <p class="font-2-s cor-8">A Nimbus Stark é a melhor Bikcraft já criada pela nossa equipe. Ela vem equipada com os melhores acessórios, o que garante maior velocidade.</p>
                 <ul class="font-1-m cor-8">
@@ -173,6 +176,7 @@
             <p class="font-2-m cor-6 footer-copy">Bikcraft © Alguns direitos reservados.</p>
         </div>
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>
     <script src="./js/script.js"></script>
 </body>
 
